@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="entity.MedicalUnit" table="medicalunit" catalog="mydb">
+        <id name="idMedicalUnit" type="java.lang.Integer">
+            <column name="idMedicalUnit" />
+            <generator class="identity" />
+        </id>
+        <property name="comment" type="string">
+            <column name="comment" length="200" not-null="true" />
+        </property>
+        <property name="idConscriptCard" type="java.lang.Integer">
+            <column name="conscriptCard_idConscriptCardId" not-null="true" />
+        </property>
+        <property name="idMedicalSpecialist" type="java.lang.Integer">
+            <column name="MedicalSpecialist_idMedicalSpecialist" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

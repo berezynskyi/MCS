@@ -1,0 +1,303 @@
+body{
+    min-width:1349px;
+    margin:0;
+    padding:0;
+    font-family:'PT Sans', sans-serif;
+    font-size:14px;
+}
+.clearfix:after{
+    content:'';
+    clear:both;
+    display:table;
+}
+.layout-positioner{
+    width:80%;
+    margin:0 auto;
+}
+.layout-positioner:after{
+    content:'';
+    clear:both;
+    display:table;
+}
+.header{
+    margin-left: 10%;
+    margin-right: 10%;
+    background:#34495e;
+    margin-bottom:10px;
+    color:white;
+    width: 80%;
+    height: auto;
+}
+.header .layout-column {
+    height:100%;
+    float:left;
+    width:60%;
+}
+
+.headerText {
+    height: 160px;
+    width: auto;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.header-img{
+    /*float:left;*/
+    width:150px;
+    margin-right:5%; 
+    height: 70%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.header .layout-column p{
+/*    float:right;*/
+    margin-top: 45%;
+    font-size: 20px;
+    font-style: italic;
+	font-weight: bold;
+	font-family: arial, sans-serif;
+}
+.features{
+    margin-bottom:10px;
+}
+.features .layout-column{
+    float:left;
+/*    margin-right:20px;*/
+    width:32%;
+    min-height:400px;
+    background:rgba(236, 240, 241, 0.9);
+/*    border-radius: 20px;*/
+
+}
+.features .layout-column:last-child{
+    float: right;
+    margin-left: 2%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    display: inline-block;
+    width: 20%;
+}
+
+.features .layout-column:first-child .doc-style{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15px;
+    width: 80%;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+.features .layout-column:first-child .documents{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    font-size: 15px;
+    font-style: italic;
+    /*font-weight: bold;*/
+    text-align: left;
+}
+
+.features .layout-column:first-child a {
+    color: #060606;
+    text-decoration: none;
+}
+.features .layout-column:first-child a:visited {
+    color: #09080a;
+    text-decoration: none;
+}
+.features .layout-column:first-child a:hover {
+    color:#0088CC;
+    text-decoration: underline;
+}
+
+.features .layout-column:nth-child(2){
+    border-radius: 20px;
+    width: 56%;
+    height: auto;
+}
+
+
+.features .layout-column:first-child{
+    float:left;
+    margin-right: 2%;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    display: inline-block;
+    width: 20%;
+}
+.footer{
+    min-height:50px;
+    background:#34495e;
+    color:white;
+    width: 80%;
+    margin-left: 10%;
+}
+
+/*Table for ConscriptCard*/
+.conscriptCard_table{
+    border-collapse: collapse;
+    margin-left: 106px;
+    margin-right: 106px;
+    margin-top: 15px;
+    width: 400px;
+    text-align: center;
+}
+
+.label-search {
+    margin-left: 106px;
+    width: auto;
+}
+
+input.filter {
+    margin-left: 10px;
+    width: 40%;
+    margin-top: 10px;
+}
+
+td{
+    width: auto;
+    padding: 10px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+th {
+    width: 33%;
+    background-color: #34495e;
+    padding: 10px;
+    color: white;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+td:hover strong{
+    color:#0088CC;
+}
+
+.filling:hover{
+    background:#F0FFFF;
+    color: #0088CC;
+}
+
+/*Profile*/
+.profile_column{
+    padding: 15px 20px 35px 20px;
+}
+.profileImage {
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.profileText {
+    width: auto;
+    height: auto;
+    margin-top: -155px;
+    margin-left: 160px;
+}
+
+.profileTextKey {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 40px;
+    margin-top: -8px;
+}
+
+.profileTextValue {
+    width: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+    margin-top: -8px;
+}
+
+.profile-header {
+    display: flex;
+}
+
+.unitImage{
+    width: 85%;
+    margin-top: 23px;
+}
+.profile-text{
+    width: 15%;
+}
+form.checkpass {
+    width: 100%;
+}
+
+.textarea-comment>textarea{
+    resize: none;
+}
+.textarea-comment {
+    width: 60%;
+}
+.check-password{
+    /*margin-top: 135px;*/
+    float: right;
+    margin-right: 10px;
+    width: 24%;
+    padding: 5px 5px 5px 5px;
+}
+
+.check-password .password-place{
+    width: 120px;
+    margin-top: -80px;
+    float: right;
+}
+.check-password .button-send{
+    width: auto;
+    margin-top: -26px;
+    margin-left: 17px;
+}
+.result-popup{
+    width: 200px;
+    margin-top: -25px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+/*Popup*/
+/*.b-popup{*/
+    /*width: auto;*/
+    /*min-height: 100%;*/
+    /*overflow: hidden;*/
+    /*position: fixed;*/
+    /*top: 310px;*/
+    /*left: 520px;*/
+/*}*/
+/*.b-popup .b-popup-content{*/
+    /*float: inherit;*/
+    /*width: 300px;*/
+    /*height: 100px;*/
+    /*padding: 10px;*/
+    /*background-color: #4d97ff;*/
+    /*border-radius: 5px;*/
+/*}*/
+
+/*MedUnit*/
+.med-profile {
+    padding: 20px 40px 20px 40px;
+}
+
+.filling-unit{
+    border-radius: 20px;
+}
+.filling-unit>p {
+    margin-left: 10px;
+}
+.filling-unit>b>i>p {
+    margin-left: 10px;
+}
+.filling-unit:hover{
+    background:#F0FFFF;
+    color: #0088CC;
+}

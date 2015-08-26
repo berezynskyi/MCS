@@ -1,0 +1,10 @@
+controller\MedicalServlet.class
+entity\MedicalSpecialist.class
+dao\MedicalSpecialistDAO.class
+entity\ConscriptCard.class
+dao\MedicalUnitDAO.class
+dao\ConscriptCardDAO.class
+entity\MedicalUnit.class
+persistance\HibernateUtil.class
+controller\ProfileServlet.class
+controller\StartServlet.class

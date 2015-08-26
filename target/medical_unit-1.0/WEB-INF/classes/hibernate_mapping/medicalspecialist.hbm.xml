@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="entity.MedicalSpecialist" table="medicalspecialist" catalog="mydb">
+        <id name="idMedicalSpecialist" type="java.lang.Integer">
+            <column name="idMedicalSpecialist" />
+            <generator class="identity" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" length="45" not-null="true" />
+        </property>
+        <property name="surname" type="string">
+            <column name="surname" length="45" not-null="true" />
+        </property>
+        <property name="fathersName" type="string">
+            <column name="fathersName" length="45" not-null="true" />
+        </property>
+        <property name="password" type="string">
+            <column name="password" length="45" not-null="true" />
+        </property>
+        <property name="rank" type="string">
+            <column name="rank" length="45" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
